@@ -1,0 +1,181 @@
+package javaapplication1;
+import java.util.Scanner;
+
+public class College {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        
+        System.out.println("What college are you in? ");
+        String st1 = sc.nextLine();
+        
+        if (st1.equals("CAS")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BAE")){
+                System.out.println("You are with CAS in a BAE program.");  
+                
+            }
+            else if (st2.equals("BAPS")){
+                System.out.println("You are with CAS in a BAPS program.");
+                
+            }
+            else if (st2.equals("BAC")){
+                System.out.println("You are with CAS in a BAC program.");
+                
+            }
+            else if (st2.equals("BSP")){
+                System.out.println("You are with CAS in a BSP program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to CAS!");
+                
+            }
+        }
+        
+        
+        
+        else if (st1.equals("CBA")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BSBA")){
+                System.out.println("You are with CBA in a BSBA program.");
+                
+            }
+            else if (st2.equals("BSE")){
+                System.out.println("You are with CBA in a BSE program.");
+                
+            }
+            else if (st2.equals("BSOA")){
+                System.out.println("You are with CBA in a BSOA program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to CBA!");
+                
+            }
+        }
+                
+
+        
+        else if (st1.equals("CEA")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BSA")){
+                System.out.println("You are with CEA in a BSA program.");
+                
+            }
+            else if (st2.equals("BSCE")){
+                System.out.println("You are with CEA in a BSCE program.");
+                
+            }
+            else if (st2.equals("BSCE2")){
+                System.out.println("You are with CEA in a BSCE2 program.");
+                
+            }
+            else if (st2.equals("BSEE")){
+                System.out.println("You are with CEA in a BSEE program.");
+                
+            }
+            else if (st2.equals("BSESE")){
+                System.out.println("You are with CEA in a BSESE program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to CEA!");
+                
+            }
+        }
+                        
+
+        
+        else if (st1.equals("CITCS")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BSCS")){
+                System.out.println("You are with CITCS in a BSCS program.");
+                
+            }
+            else if (st2.equals("BSIS")){
+                System.out.println("You are with CITCS in a BSIS program.");
+                
+            }
+            else if (st2.equals("BSIT")){
+                System.out.println("You are with CITCS in a BSIT program.");
+                
+            }
+            else if (st2.equals("ACT")){
+                System.out.println("You are with CITCS in a ACT program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to CITCS!");
+                
+            }
+        }
+                
+                
+                
+        else if (st1.equals("CTE")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BAE")){
+                System.out.println("You are with CTE in a BAE program.");
+                
+            }
+            else if (st2.equals("BAPS")){
+                System.out.println("You are with CTE in a BAPS program.");
+                
+            }
+            else if (st2.equals("BAC")){
+                System.out.println("You are with CTE in a BAC program.");
+                
+            }
+            else if (st2.equals("BSP")){
+                System.out.println("You are with CTE in a BSP program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to CTE!");
+                
+            }
+        }
+                
+                
+                
+        else if (st1.equals("COA")) {
+            System.out.println("What program are you in? ");
+            String st2 = sc.nextLine();
+            
+            if (st2.equals("BSEEG")){
+                System.out.println("You are with COA in a BSEEG program.");
+                
+            }
+            else if (st2.equals("BSEE")){
+                System.out.println("You are with COA in a BSEE program.");
+                
+            }
+            else if (st2.equals("BSSE")){
+                System.out.println("You are with COA in a BSSE program.");
+                
+            }
+            else {
+                System.out.println("You don't belong to COA!");
+        
+                
+        
+            }
+        } else {
+            System.out.println("Your college is not needed by our Instructor! GO HOME!");
+        }
+        
+    }
+    }
